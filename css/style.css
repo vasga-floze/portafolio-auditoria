@@ -158,7 +158,28 @@ ul {
     display: inline-block;
     border: none;
     outline: none;
-    background: #ec1c24;
+    background: #160562;
+    -o-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -moz-border-radius: 50%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.34);
+    -webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.34);
+    -o-box-shadow: 0 3px 5px rgba(0, 0, 0, 0.34);
+    -webkit-transition: transform .2s linear, -webkit-box-shadow .2s linear;
+    -moz-transition: transform .2s linear, -moz-box-shadow .2s linear;
+    transition: transform .2s linear, box-shadow .2s linear;
+    padding: 0.6em 2em;
+}
+.read1 {
+    color: #fff;
+    font-size: 1em;
+    font-weight: 400;
+    letter-spacing: 2px;
+    display: inline-block;
+    border: none;
+    outline: none;
+    background: #c50505;
     -o-border-radius: 50%;
     -ms-border-radius: 50%;
     -moz-border-radius: 50%;
